@@ -1,0 +1,441 @@
+*{
+	box-sizing: border-box;
+
+}
+/*NAVBAR SECTION*/
+#header .navbar{
+	background-color: #1A1B41;
+}
+
+
+#header .nav-link{
+	color: #FFF;
+  border-bottom: 3px solid transparent;
+}
+
+#header .nav-link:hover{
+  border-bottom: 3px solid #FE7F3D;
+}
+
+#header .nav-link-active{
+  border-bottom: 3px solid #FE7F3D
+}
+
+#header .nav-item{
+	font-size: 1.2rem;
+}
+
+#header .navbar-brand{
+	font-family: 'Russo One';
+	font-size: 2.5rem;
+	margin-left: 80px;
+}
+
+@media (max-width: 995px){
+  #header .navbar-brand{
+    margin-left: 7%;
+  }
+}
+
+#header .dot{
+	color: #FE7F3D;
+}
+
+#header .hire{
+	background-color: #FE7F3D;
+	color: #fff;
+	margin-right: 80px;
+}
+
+@media (max-width: 995px){
+  #header .hire{
+    margin-right: 0;
+  }
+}
+
+#header .hero{
+	background-color: #1A1B41;
+	width: 100%;
+}
+
+#header .hero h1{
+  position: relative;
+	font-size: 4vw;
+	font-family: 'Nunito Sans';
+	font-weight: bold;
+	color: #fff;
+	margin: 0;
+	padding-left: 2vw;
+	text-align: left;
+	line-height: 1.5;
+  overflow: hidden;
+  z-index: 1;
+}
+
+@media(max-width: 995px){
+  #header .hero h1{
+    font-size: 6.4vw;
+  }
+
+  #header .hero .hey{
+    margin-top: 20%;
+    display: inline-block;
+  }
+}
+#header .hero .box{
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  display: inline-block;
+  height: 1vh;
+  background: #FE7F3D;
+}
+
+#header .hero .snippet{
+  color: #FFFFFF8C;
+  font-family: 'Nunito Sans';
+  margin-top: 20%;
+  padding: 0 0 2%;
+  padding-right: 4%;
+  font-size: 1.2rem;
+}
+
+@media(max-width: 995px){
+  #header .hero .snippet{
+    font-size: 1rem;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    margin-top: 0;
+  }
+}
+
+#header .hero .btn-outline{
+  border: 2px solid #FE7F3D;
+  border-radius: 0;
+  color: #fff;
+}
+
+#header .hero .btn-outline:hover{
+  background-color: #FE7F3D;
+  border-radius: 16px;
+}
+
+#header .hero .linkedin{
+  padding-left: 4px;
+  color: #fff;
+}
+
+/*PORTFOLIO SECTION*/    
+#portfolio-intro p {
+  color:#1A1B41;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+#portfolio-intro h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color: #1A1B41;
+}
+
+#portfolio-intro .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 5%;
+}
+
+@media (max-width: 995px){
+  #portfolio-intro .intro{
+    margin-top: 15%;
+  }
+}
+#portfolio-intro .intro p {
+  margin-bottom:0;
+}
+
+#portfolio-intro .projects {
+  padding:50px 0;
+  cursor: pointer;
+}
+#portfolio-intro .item {
+  margin: 0 auto 5%;
+}
+
+#portfolio-intro .item .image-box{
+  position: relative;
+  width: 100%;
+}
+
+#portfolio-intro .item .image-box .screenshot{
+  display: block;
+  width: 500px;
+  height: auto;
+}
+
+@media(max-width: 1100px){
+  #portfolio-intro .item .image-box .screenshot{
+    margin: 5% auto;
+    width: 350px;
+  }
+}
+
+@media (max-width: 1100px){
+  #portfolio-intro .item .image-box{
+    width: 100%;
+  }
+}
+
+#portfolio-intro .item .cover {
+  position:absolute;
+  top: 0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  width:500px;
+  height: auto;
+  background-color:rgba(0,0,0,0.70);
+  transition:opacity 0.75s ease-in;
+  opacity:0;
+  padding-top:80px;
+  color:#fff;
+  text-shadow:1px 1px 1px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 1100px){
+  #portfolio-intro .item .cover{
+    width: 350px;
+    padding-top: 40px;
+    margin: 0 auto;
+  }
+}
+
+#portfolio-intro .item:hover .cover {
+  opacity:1;
+}
+
+#portfolio-intro .item .project-name {
+  font-weight:bold;
+  margin-bottom:8px;
+}
+
+#portfolio-intro .item .project-link{
+  text-transform:uppercase;
+  font-weight:bold;
+  color:#bbd8fb;
+  letter-spacing:2px;
+  font-size:13px;
+  margin-bottom:20px;
+  opacity: 1;
+}
+
+#portfolio-intro .item .project-link:hover {
+  color: #FE7F3D;
+}
+
+/*ABOUT SECTION*/
+#about-intro .about{
+  padding-top: 8%;
+}
+@media (max-width: 995px){
+  #about-intro .about{
+    padding-top: 15%;
+  }
+}
+
+#about-intro .myimg{
+  width: 80%;
+  border-radius: 100%;
+  margin-left: 12%;
+}
+
+#about-intro{
+  background-color: #1A1B41;
+}
+#about-intro h2{
+  font-weight: bold;
+  color: #FFF;
+  font-family: 'Nunito Sans';
+  font-size: 2.5rem;
+  padding-top: 5%;
+}
+
+@media (max-width: 995px){
+  #about-intro h2{
+    padding-top: 10%;
+  }
+}
+
+#about-intro img{
+  width: 80%;
+  margin-left: 12%;
+  margin-bottom: 3%;
+  border-radius: 100%;
+}
+
+
+#about-intro .row{
+  width: 100%;
+  padding-top: 5%;
+}
+
+#about-intro .col-lg-7{
+  padding-left: 10%;
+  font-family: 'Nunito Sans';
+  font-size: 20px;
+  color: #FFFFFF8C;
+}
+
+#about-intro .more-button{
+  background-color: #FE7F3D;
+  color: #fff;
+  border-radius: 0;
+  margin-bottom: 5%;
+}
+/*TECHNOLOGY SECTION*/
+#technology .context{
+  margin: 2% 15%;
+}
+
+#technology h2{
+  margin: 3% 0;
+  color: #1A1B41;
+  font-weight: bold;
+}
+
+#technology .cv{
+  padding-left: 15%;
+}
+
+#technology .resume{
+    border: 2px solid #FE7F3D;
+  border-radius: 0;
+  color: #1A1B41;
+  padding: 10px 14px;
+}
+
+#technology .resume:hover{
+  background-color: #1A1B41;
+  color: #FE7F3D;
+}
+/*CONTACT SECION*/
+
+#contact .round-edge{
+  background-color: #1A1B41;
+  width: 50%;
+  border-radius: 16px;
+  margin: 5% auto;
+}
+
+
+#contact input, #contact textarea{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  box-shadow: none;
+  border-radius: 0;
+ }
+
+ #contact label, #contact textarea, #contact input{
+   color: #fff;
+ }
+
+#contact .form-floating{
+  margin: 8% 30%;
+}
+
+#contact .btn{
+  background-color: #FE7F3D;
+  color: #fff;
+  border-radius: 0;
+  margin: 0 auto;
+}
+
+#contact .getin{
+  font-weight: bold;
+  color: #fff;
+  padding-top: 5%;
+  }
+
+  @media(max-width: 995px){
+    #contact .round-edge{
+      width: 90%;
+    }
+
+    #contact .form-floating{
+      margin: 8% 20%;
+    }
+  }
+
+  #footer {
+    background-color: #1A1B41;
+    padding: 5% 0 0.5%;
+
+  }
+
+#footer .bottom-section{
+  display: inline-flex;
+  justify-content: center;
+}
+
+#footer .logo{
+  font-family: 'Russo One';
+  font-size: 3.5rem;
+  margin-left: 80px;
+  display: flex;
+  text-decoration: none;
+}
+
+#footer .dot{
+  color: #FE7F3D;
+}
+  #footer a{
+  padding: 0 10px;
+  color: #fff;
+}
+#footer .copyright{
+  display: block;
+  color: #fff;
+  text-align: center;
+  margin-top: 5% 0 0;
+}
+
+#footer .resume{
+    border: 2px solid #FE7F3D;
+  border-radius: 0;
+  color: #fff;
+  padding: 10px 14px;
+}
+
+#footer .resume:hover{
+  background-color: #FE7F3D;
+  border-radius: 16px;
+}
+#footer .fa-1x:hover{
+  color: #FE7F3D;
+}
+@media (max-width: 995px){
+  #footer .logo{
+    margin: 0;
+  }
+
+  #footer .fa-2x{
+    font-size: 1rem;
+  }
+}
+
+#success .message{
+  margin: 20% auto 10%;
+}
+
+@media (max-width:995px){
+  #footer1{
+    display: none;
+  }
+
+  #success .message{
+    margin: 50% auto;
+  }
+}
