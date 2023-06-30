@@ -8,5 +8,12 @@ This is my personal website created for the purpose of showcasing or displaying 
 - GSAP
 
 # FEATURES
-![Screenshot (162)](https://github.com/Peculiars/portfolio/assets/103338367/ec9a8b77-6e16-47a0-b031-0da4c9bd00ce)
+![Screenshot (159)](https://github.com/Peculiars/portfolio/assets/103338367/df0079b6-55da-4c39-93f9-77e8c1994879)
+![Screenshot (160)](https://github.com/Peculiars/portfolio/assets/103338367/58f0c006-e82c-4f91-8aee-99d814e6b909)
+![Screenshot (161)](https://github.com/Peculiars/portfolio/assets/103338367/d3937b4c-a3eb-4672-adac-71d7e7a07316)
+![Screenshot (162)](https://github.com/Peculiars/portfolio/assets/103338367/713cdff2-edb8-4360-b2ed-451d288d16cb)
+
+
+
+
 
