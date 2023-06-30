@@ -15,7 +15,7 @@ window.onload = function(){
 	form.addEventListener('submit',
 		function(event){
 			event.preventDefault();
-			window.location.href = "thanks.html";
+			form.submit();
 		});
 }
 
