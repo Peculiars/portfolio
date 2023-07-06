@@ -178,7 +178,7 @@
 @media(max-width: 1100px){
   #portfolio-intro .item .image-box .screenshot{
     margin: 5% auto;
-    width: 350px;
+    width: 370px;
   }
 }
 
@@ -206,7 +206,7 @@
 
 @media (max-width: 1100px){
   #portfolio-intro .item .cover{
-    width: 350px;
+    width: 370px;
     padding-top: 40px;
     margin: 0 auto;
   }
