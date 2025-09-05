@@ -18,11 +18,11 @@ const Hero = () => {
         </div>
         <div className='flex justify-center relative my-20 z-10'>
             <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col justify-center items-center'>
-                <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>Dynamic web magic with Nextjs</h2>
-                <TextGenerateEffect words="Transforming concepts into seamless user Experiences" className='text-center text-[40px] md:text-4xl lg:text-6xl'/>
-                <p className='text-center text-white-200 md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>I&apos;m a passionate web developer with a knack for creating dynamic and engaging user experiences.</p>
+                <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>Code. Create. Captivate.</h2>
+                <TextGenerateEffect words="I build modern web and mobile apps that users love." className='text-center text-[40px] md:text-4xl lg:text-6xl'/>
+                <p className='text-center text-white-200 md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>I&apos;m a frontend developer building responsive and engaging web & mobile apps with React, React Native, Nextjs and Expo</p>
                 <Link href="#about">
-                    <MagicButton title="Show my work"  icon={<FaLocationArrow/>}  position='right'/>
+                    <MagicButton title="See my work"  icon={<FaLocationArrow/>}  position='right'/>
                 </Link>
             </div>
         </div>

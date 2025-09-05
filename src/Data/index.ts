@@ -72,35 +72,35 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Mansior - Property Sales and Rental Platform",
+    des: "A comprehensive property sales and rental platform that connects buyers, sellers, and renters with ease.",
+    img: "/p1.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/tan.png",  "/fm.svg"],
+    link: "https://www.mansior.com",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Virtuo - Educational Management System",
+    des: "A detailed educational management system that streamlines administrative tasks and enhances the learning experience.",
+    img: "/p2.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/tawk.png", "/tan.png"],
+    link: "https://v1.virtuobusiness.com/en",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Sorobo - E-commerce Platform",
+    des: "A feature-rich e-commerce platform that offers a seamless shopping experience with secure escrow payment integration.",
+    img: "/p3.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/redux.svg"],
+    link: "https://www.sorobo.com.ng/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Dynabank - Banking Website Clone",
+    des: "A visually appealing and responsive banking website clone built with modern web technologies.",
+    img: "/p4.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/plaid.png"],
+    link: "https://dynabank.netlify.app/",
   },
 ];
 
@@ -140,66 +140,58 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Mansior",
+    nameImg: "/mans.png",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "Virtuo",
+    nameImg: "/virtuo.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "cowrywise",
+    nameImg: "/cowrywise-seeklogo.png",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "sorobo",
+    img: "/sbogo.png",
+    nameImg: "sbogo.png",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Engineer - Virtuo",
+    desc: "Built and optimized responsive web applications with modern technologies, ensuring smooth user interactions and performance.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/exp4.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Mobile App Developer",
+    desc: "Created cross-platform mobile applications with React Native, delivering consistent experiences on iOS and Android.",
+    className: "md:col-span-2", 
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Freelance Developer",
+    desc: "Worked with clients to design and develop custom web and mobile solutions, from idea to deployment.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Frontend Developer - Netwalkers",
+    desc: "Collaborated on various projects to implement modern UI features and improve usability across devices.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp1.svg",
   },
 ];
+
 
 export const socialMedia = [
   {
