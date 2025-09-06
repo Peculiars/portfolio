@@ -2,6 +2,7 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/Data"
 import { PinContainer } from "./ui/PinContainer";
+import Link from "next/link";
 
 const RecentProjects = () => {
   return (
@@ -21,9 +22,9 @@ const RecentProjects = () => {
                 <img src={item.img} alt="cover" className="z-10 absolute bottom-0" />
               </div>
 
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 text-white">
+              <Link href={item.link} className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 text-white">
                 {item.title}
-              </h1>
+              </Link>
 
               <p
                 className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
