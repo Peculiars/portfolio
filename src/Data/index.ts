@@ -107,35 +107,41 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Damilare was smooth and inspiring. He has a great eye for detail and always delivers responsive, user-friendly designs that impress both clients and teammates.",
+    name: "Simiat",
+    title: "Product Designer",
+    img: "/simiat.png"
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Damilare’s frontend skills perfectly complemented my work. He communicates clearly, writes clean code, and makes collaboration effortless. A reliable teammate any developer would want.",
+    name: "Yusuf Habeeb",
+    title: "Backend Developer",
+    img: "/habeeb.png"
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "consistently turned ideas into seamless experiences. His ability to break down requirements and deliver beyond expectations made managing projects much easier.",
+    name: "Victoria",
+    title: "Product Manager",
+    img: '/no-img.svg'
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "His passion for building beautiful, functional interfaces is unmatched. Damilare brings creativity, technical skill, and collaboration to every project. Always a pleasure to work with.",
+    name: "Oreoluwa",
+    title: "Product Designer",
+    img: '/oreoluwa.png'
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "As a fellow frontend dev, I’ve seen how well Damilare tackles challenges. He’s innovative, focused on performance, and always eager to learn and share knowledge.",
+    name: "Ahmed",
+    title: "Frontend Developer",
+    img: '/ahmed.png'
   },
 ];
+
 
 export const companies = [
   {
@@ -197,13 +203,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: 'https://github.com/Peculiars'
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: 'https://x.com/damilare230'
   },
   {
     id: 3,
     img: "/link.svg",
+    link: 'https://www.linkedin.com/in/olaitan-damilare-ba5897184'
   },
 ];

@@ -18,6 +18,34 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Damilare's Portfolio",
   description: "Welcome to my portfolio website showcasing my projects and skills.",
+  icons: {
+    icon: "/favicon.ico",
+  },
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "white" },
+    { media: "(prefers-color-scheme: dark)", color: "black" },
+  ],
+  openGraph: {
+    title: "Damilare's Portfolio",
+    description: "Welcome to my portfolio website showcasing my projects and skills.",
+    url: "https://damilare-portfolio.vercel.app/",
+    siteName: "Damilare's Portfolio",
+    images: [
+      {
+        url: "/damilare.jpg",
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: "en-US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Damilare's Portfolio",
+    description: "Welcome to my portfolio website showcasing my projects and skills.",
+    images: ["/damilare.jpg"],
+  },
 };
 
 export default function RootLayout({
