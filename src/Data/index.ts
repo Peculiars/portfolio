@@ -100,7 +100,7 @@ export const projects = [
     des: "A visually appealing and responsive banking website clone built with modern web technologies.",
     img: "/p4.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/plaid.png"],
-    link: "https://dynabank.netlify.app/",
+    link: "https://dyna-bank.vercel.app/",
   },
 ];
 

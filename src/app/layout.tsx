@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Damilare's Portfolio",
     description: "Welcome to my portfolio website showcasing my projects and skills.",
-    url: "https://damilare-portfolio.vercel.app/",
+    url: "https://damilaredev.vercel.app/",
     siteName: "Damilare's Portfolio",
     images: [
       {
@@ -50,7 +50,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.variable} ${poppins.variable} antialiased`} >
+      <body className={`${inter.variable} ${poppins.variable} antialiased text-white`} >
         {children}
       </body>
     </html>
