@@ -102,6 +102,14 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/plaid.png"],
     link: "https://dyna-bank.vercel.app/",
   },
+  {
+    id: 5,
+    title: "Pixiwise - AI SAAS",
+    des: "AI-Powered Image Transformation and Management",
+    img: "/p5.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/plaid.png"],
+    link: "https://pixiwise.vercel.app/",
+  },
 ];
 
 export const testimonials = [
