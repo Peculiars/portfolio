@@ -107,7 +107,7 @@ export const projects = [
     title: "Pixiwise - AI SAAS",
     des: "AI-Powered Image Transformation and Management",
     img: "/p5.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/plaid.png"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/m.svg", "/c.svg"],
     link: "https://pixiwise.vercel.app/",
   },
 ];
