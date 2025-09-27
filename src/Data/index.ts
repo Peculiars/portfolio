@@ -72,6 +72,22 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Lectura - AI SAAS",
+    des: "Real-time AI Teaching Platform",
+    img: "/p6.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/supa.webp", "/c.svg"],
+    link: "https://lectura-three.vercel.app/",
+  },
+   {
+    id: 2,
+    title: "Pixiwise - AI SAAS",
+    des: "AI-Powered Image Transformation and Management",
+    img: "/p5.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/m.svg", "/c.svg"],
+    link: "https://pixiwise.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Mansior - Property Sales and Rental Platform",
     des: "A comprehensive property sales and rental platform that connects buyers, sellers, and renters with ease.",
     img: "/p1.png",
@@ -79,7 +95,7 @@ export const projects = [
     link: "https://www.mansior.com",
   },
   {
-    id: 2,
+    id: 4,
     title: "Virtuo - Educational Management System",
     des: "A detailed educational management system that streamlines administrative tasks and enhances the learning experience.",
     img: "/p2.png",
@@ -87,7 +103,7 @@ export const projects = [
     link: "https://v1.virtuobusiness.com/en",
   },
   {
-    id: 3,
+    id: 5,
     title: "Sorobo - E-commerce Platform",
     des: "A feature-rich e-commerce platform that offers a seamless shopping experience with secure escrow payment integration.",
     img: "/p3.png",
@@ -95,20 +111,12 @@ export const projects = [
     link: "https://www.sorobo.com.ng/",
   },
   {
-    id: 4,
+    id: 6,
     title: "Dynabank - Banking Website Clone",
     des: "A visually appealing and responsive banking website clone built with modern web technologies.",
     img: "/p4.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/plaid.png"],
     link: "https://dyna-bank.vercel.app/",
-  },
-  {
-    id: 5,
-    title: "Pixiwise - AI SAAS",
-    des: "AI-Powered Image Transformation and Management",
-    img: "/p5.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/m.svg", "/c.svg"],
-    link: "https://pixiwise.vercel.app/",
   },
 ];
 
